@@ -4,10 +4,10 @@ import unittest
 
 class MainTest(unittest.TestCase):
     def setUp(self):
-        print 'setUp MainTest...'
+        print ('setUp MainTest...')
 
     def tearDown(self):
-        print 'tearDown MainTest...'
+        print ('tearDown MainTest...')
 
     def test_add1(self):
     	self.assertEqual(3, main.add(1, 2))

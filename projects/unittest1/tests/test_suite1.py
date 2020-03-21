@@ -3,7 +3,6 @@ import unittest
 from test_mathfunc import TestMathFunc
 from unittest1_tests import MainTest
 
-
 if __name__ == '__main__':
     suite = unittest.TestSuite()
 
