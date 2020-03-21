@@ -1,8 +1,6 @@
 from ex47.game import Room
-import unittest
+from nose.tools import *
 
-
-class TestGame(unittest.TestCase):
-    def test_room(self):
-        gold = Room("GoldRoom", "this room has gold")
-        self.assertEqual(gold.name, "GoldRoom")
+def test_room():
+    gold = Room("GoldRoom", "this room has gold")
+    assert_equal(gold.name, "GoldRoom1")
