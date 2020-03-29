@@ -1,3 +1,4 @@
+# coding=utf-8
 class MusicPlayer(object):
     instance = None
     init_flag = False
@@ -15,7 +16,8 @@ class MusicPlayer(object):
             MusicPlayer.init_flag = True
 
 
-player1 = MusicPlayer()
-print(player1)
-player2 = MusicPlayer()
-print(player2)
+if __name__ == "__main__":
+    player1 = MusicPlayer()
+    print(player1)
+    player2 = MusicPlayer()
+    print(player2)
