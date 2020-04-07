@@ -1,5 +1,7 @@
 virtualenv venv
 
+
+
 pip freeze >requirements.txt
 pip install -r requirements.txt
 
@@ -10,6 +12,7 @@ https://www.bootcdn.cn/jquery/
 
 导航条
 https://v3.bootcss.com/components/#navbar  //制作主页面
+
 
 
 pip install flask_sqlalchemy
