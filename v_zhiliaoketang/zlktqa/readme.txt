@@ -12,8 +12,7 @@ https://www.bootcdn.cn/jquery/
 
 导航条
 https://v3.bootcss.com/components/#navbar  //制作主页面
-
-
+https://www.bootcdn.cn/ cdn resources
 
 pip install flask_sqlalchemy
 pip install flask_script
