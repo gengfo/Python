@@ -41,6 +41,8 @@ def regist():
             else:
                 user = User(telephone=telephone, username=username, password=password1)
                 db.session.add(user)
+                db.session.commit()
+
                 return redirect(url_for('login'))
 
 
