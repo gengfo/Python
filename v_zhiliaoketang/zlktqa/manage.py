@@ -7,8 +7,6 @@ from exts import db
 from models import User
 import MySQLdb
 
-
-
 manager = Manager(app)
 
 migrate = Migrate(app, db)
