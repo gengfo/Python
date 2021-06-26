@@ -28,6 +28,7 @@ ax.legend()
 ax.set_xticks(xticks + 0.25)
 ax.set_xticklabels(shops)
 
+
 plt.show()
 
 
